@@ -25,13 +25,6 @@ export const App = () => {
     return Math.round((good / countTotalFeedback()) * 100) + '%';
   };
 
-  // const countFeedback = option =>
-  //   this.setState(prevState => {
-  //     return {
-  //       [option]: prevState[option] + 1,
-  //     };
-  //   });
-
   return (
     <Wrapper>
       <Section title="Please leave feedback">
